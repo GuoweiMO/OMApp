@@ -39,6 +39,7 @@
   
   UINib *cellNib = [UINib nibWithNibName:@"OMSetViewCell" bundle:nil];
   [self.collectionView registerNib:cellNib forCellWithReuseIdentifier:kSetCellId];
+  [self setAutomaticallyAdjustsScrollViewInsets:NO];
   
   [self retrieveSetData];
 }
