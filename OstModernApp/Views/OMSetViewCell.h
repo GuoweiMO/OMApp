@@ -10,4 +10,7 @@
 
 @interface OMSetViewCell : UICollectionViewCell
 
+@property (weak, nonatomic) IBOutlet UIImageView *streamSetImageView;
+@property (weak, nonatomic) IBOutlet UILabel *streamSetTitle;
+
 @end

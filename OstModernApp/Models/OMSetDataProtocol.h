@@ -6,8 +6,8 @@
 //  Copyright © 2016 Guowei Mo. All rights reserved.
 //
 
-#ifndef OMSetDataProtocol_h
-#define OMSetDataProtocol_h
+@protocol OMSetDataDelegate <NSObject>
 
+- (NSInteger)numberOfEpisodesAtSetItem:(NSInteger)item;
 
-#endif /* OMSetDataProtocol_h */
+@end

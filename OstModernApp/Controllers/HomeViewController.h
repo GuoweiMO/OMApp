@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OMSetDataProtocol.h"
 
-@interface ViewController : UIViewController
+@interface HomeViewController : UIViewController<UICollectionViewDelegate, UICollectionViewDataSource,UICollectionViewDelegateFlowLayout, OMSetDataDelegate>
 
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end
 

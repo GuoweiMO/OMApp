@@ -10,4 +10,11 @@
 
 @interface OMSet : NSObject
 
+- (instancetype)initWithData:(NSDictionary *)data;
+
+- (NSString *)coverImageURLString;
+- (NSString *)coverTitle;
+- (NSInteger)numberOfEpisodes;
+- (NSString *)episodeURLAtIndex:(NSInteger)index;
+
 @end

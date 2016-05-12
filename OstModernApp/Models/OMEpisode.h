@@ -10,4 +10,8 @@
 
 @interface OMEpisode : NSObject
 
+- (instancetype)initWithData:(NSDictionary *)data;
+- (NSString *)episodeTitle;
+- (NSString *)episodeSubtitle;
+
 @end

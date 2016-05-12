@@ -1,18 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="OMSetViewCell">
-            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <rect key="frame" x="0.0" y="0.0" width="171" height="205"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <rect key="frame" x="0.0" y="0.0" width="171" height="205"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video_icon_default" translatesAutoresizingMaskIntoConstraints="NO" id="e3H-bX-pC1">
+                        <rect key="frame" x="8" y="8" width="155" height="141"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4pT-ab-sZn">
+                        <rect key="frame" x="8" y="157" width="155" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="snb-4c-K0p"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="4pT-ab-sZn" secondAttribute="bottom" constant="8" id="1sY-ke-dgP"/>
+                <constraint firstItem="4pT-ab-sZn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="OSp-wK-360"/>
+                <constraint firstItem="4pT-ab-sZn" firstAttribute="top" secondItem="e3H-bX-pC1" secondAttribute="bottom" constant="8" id="RZ8-fs-pXZ"/>
+                <constraint firstAttribute="trailing" secondItem="4pT-ab-sZn" secondAttribute="trailing" constant="8" id="Udu-fK-iRi"/>
+                <constraint firstItem="e3H-bX-pC1" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="YOw-nb-EDw"/>
+                <constraint firstItem="e3H-bX-pC1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="ovo-Lp-HBK"/>
+                <constraint firstAttribute="trailing" secondItem="e3H-bX-pC1" secondAttribute="trailing" constant="8" id="p2A-fN-H8j"/>
+            </constraints>
+            <size key="customSize" width="171" height="205"/>
+            <connections>
+                <outlet property="streamSetImageView" destination="e3H-bX-pC1" id="S2q-rZ-bup"/>
+                <outlet property="streamSetTitle" destination="4pT-ab-sZn" id="8s3-9x-bhZ"/>
+            </connections>
+            <point key="canvasLocation" x="361.5" y="335.5"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="video_icon_default" width="288" height="300"/>
+    </resources>
 </document>

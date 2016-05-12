@@ -17,8 +17,13 @@
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-
     // Configure the view for the selected state
+}
+
+- (void)updateCellWithEpisodeInfo:(OMEpisode *)episode
+{
+  self.episodeTitleLabel.text = [episode episodeTitle];
+  self.episodeSubtitleLabel.text = [episode episodeSubtitle];
 }
 
 @end
