@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E43B66431CDD124100406710 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E43B66421CDD124100406710 /* main.m */; };
-		E43B66461CDD124100406710 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E43B66451CDD124100406710 /* AppDelegate.m */; };
-		E43B66491CDD124100406710 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E43B66481CDD124100406710 /* ViewController.m */; };
-		E43B664C1CDD124100406710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43B664A1CDD124100406710 /* Main.storyboard */; };
 		E43B664E1CDD124100406710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43B664D1CDD124100406710 /* Assets.xcassets */; };
 		E43B66511CDD124100406710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43B664F1CDD124100406710 /* LaunchScreen.storyboard */; };
 		E43B665C1CDD124100406710 /* OstModernAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E43B665B1CDD124100406710 /* OstModernAppTests.m */; };
 		E43B66671CDD124100406710 /* OstModernAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E43B66661CDD124100406710 /* OstModernAppUITests.m */; };
+		E43B667A1CDD142200406710 /* OMConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E43B66791CDD142200406710 /* OMConnectionManager.m */; };
+		E43B667E1CDD143E00406710 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E43B667C1CDD143E00406710 /* AppDelegate.m */; };
+		E43B667F1CDD143E00406710 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E43B667D1CDD143E00406710 /* main.m */; };
+		E43B66851CDD152900406710 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E43B66841CDD152900406710 /* HomeViewController.m */; };
+		E4E738981CE27ACC000B7567 /* OMSetViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E738961CE27ACC000B7567 /* OMSetViewCell.m */; };
+		E4E738991CE27ACC000B7567 /* OMSetViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4E738971CE27ACC000B7567 /* OMSetViewCell.xib */; };
+		E4E7389C1CE282C2000B7567 /* OMSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E7389B1CE282C2000B7567 /* OMSet.m */; };
+		E4E7389F1CE28ED8000B7567 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E7389D1CE28ED8000B7567 /* Main.storyboard */; };
+		E4E738A61CE3DD2E000B7567 /* OMEpisodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E738A41CE3DD2E000B7567 /* OMEpisodeViewController.m */; };
+		E4E738AB1CE3DE77000B7567 /* OMEpisodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E738A91CE3DE77000B7567 /* OMEpisodeCell.m */; };
+		E4E738AC1CE3DE77000B7567 /* OMEpisodeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4E738AA1CE3DE77000B7567 /* OMEpisodeCell.xib */; };
+		E4E738AF1CE3E514000B7567 /* OMEpisode.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E738AE1CE3E514000B7567 /* OMEpisode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +44,6 @@
 
 /* Begin PBXFileReference section */
 		E43B663E1CDD124100406710 /* OstModernApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OstModernApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E43B66421CDD124100406710 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E43B66441CDD124100406710 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E43B66451CDD124100406710 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E43B66471CDD124100406710 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E43B66481CDD124100406710 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E43B664B1CDD124100406710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E43B664D1CDD124100406710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E43B66501CDD124100406710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E43B66521CDD124100406710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,27 @@
 		E43B66621CDD124100406710 /* OstModernAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OstModernAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E43B66661CDD124100406710 /* OstModernAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OstModernAppUITests.m; sourceTree = "<group>"; };
 		E43B66681CDD124100406710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43B66781CDD142200406710 /* OMConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMConnectionManager.h; path = Models/OMConnectionManager.h; sourceTree = "<group>"; };
+		E43B66791CDD142200406710 /* OMConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMConnectionManager.m; path = Models/OMConnectionManager.m; sourceTree = "<group>"; };
+		E43B667B1CDD143E00406710 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Application/AppDelegate.h; sourceTree = "<group>"; };
+		E43B667C1CDD143E00406710 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Application/AppDelegate.m; sourceTree = "<group>"; };
+		E43B667D1CDD143E00406710 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Application/main.m; sourceTree = "<group>"; };
+		E43B66831CDD152900406710 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Controllers/HomeViewController.h; sourceTree = "<group>"; };
+		E43B66841CDD152900406710 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Controllers/HomeViewController.m; sourceTree = "<group>"; };
+		E4E738951CE27ACC000B7567 /* OMSetViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMSetViewCell.h; path = Views/OMSetViewCell.h; sourceTree = "<group>"; };
+		E4E738961CE27ACC000B7567 /* OMSetViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMSetViewCell.m; path = Views/OMSetViewCell.m; sourceTree = "<group>"; };
+		E4E738971CE27ACC000B7567 /* OMSetViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OMSetViewCell.xib; path = Views/OMSetViewCell.xib; sourceTree = "<group>"; };
+		E4E7389A1CE282C2000B7567 /* OMSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMSet.h; path = Models/OMSet.h; sourceTree = "<group>"; };
+		E4E7389B1CE282C2000B7567 /* OMSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMSet.m; path = Models/OMSet.m; sourceTree = "<group>"; };
+		E4E7389E1CE28ED8000B7567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4E738A31CE3DD2E000B7567 /* OMEpisodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMEpisodeViewController.h; path = Controllers/OMEpisodeViewController.h; sourceTree = "<group>"; };
+		E4E738A41CE3DD2E000B7567 /* OMEpisodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMEpisodeViewController.m; path = Controllers/OMEpisodeViewController.m; sourceTree = "<group>"; };
+		E4E738A81CE3DE77000B7567 /* OMEpisodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMEpisodeCell.h; path = Views/OMEpisodeCell.h; sourceTree = "<group>"; };
+		E4E738A91CE3DE77000B7567 /* OMEpisodeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMEpisodeCell.m; path = Views/OMEpisodeCell.m; sourceTree = "<group>"; };
+		E4E738AA1CE3DE77000B7567 /* OMEpisodeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OMEpisodeCell.xib; path = Views/OMEpisodeCell.xib; sourceTree = "<group>"; };
+		E4E738AD1CE3E514000B7567 /* OMEpisode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMEpisode.h; path = Models/OMEpisode.h; sourceTree = "<group>"; };
+		E4E738AE1CE3E514000B7567 /* OMEpisode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMEpisode.m; path = Models/OMEpisode.m; sourceTree = "<group>"; };
+		E4E738B01CE3ECD2000B7567 /* OMSetDataProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OMSetDataProtocol.h; path = Models/OMSetDataProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +124,11 @@
 		E43B66401CDD124100406710 /* OstModernApp */ = {
 			isa = PBXGroup;
 			children = (
-				E43B66441CDD124100406710 /* AppDelegate.h */,
-				E43B66451CDD124100406710 /* AppDelegate.m */,
-				E43B66471CDD124100406710 /* ViewController.h */,
-				E43B66481CDD124100406710 /* ViewController.m */,
-				E43B664A1CDD124100406710 /* Main.storyboard */,
+				E43B66741CDD12B100406710 /* Application */,
+				E43B66751CDD12BB00406710 /* Controllers */,
+				E43B66761CDD12CE00406710 /* Models */,
+				E43B66771CDD12D600406710 /* Views */,
 				E43B664D1CDD124100406710 /* Assets.xcassets */,
-				E43B664F1CDD124100406710 /* LaunchScreen.storyboard */,
-				E43B66521CDD124100406710 /* Info.plist */,
 				E43B66411CDD124100406710 /* Supporting Files */,
 			);
 			path = OstModernApp;
@@ -117,7 +137,7 @@
 		E43B66411CDD124100406710 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E43B66421CDD124100406710 /* main.m */,
+				E43B66521CDD124100406710 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +158,56 @@
 				E43B66681CDD124100406710 /* Info.plist */,
 			);
 			path = OstModernAppUITests;
+			sourceTree = "<group>";
+		};
+		E43B66741CDD12B100406710 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E43B667B1CDD143E00406710 /* AppDelegate.h */,
+				E43B667C1CDD143E00406710 /* AppDelegate.m */,
+				E43B667D1CDD143E00406710 /* main.m */,
+				E43B664F1CDD124100406710 /* LaunchScreen.storyboard */,
+				E4E7389D1CE28ED8000B7567 /* Main.storyboard */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		E43B66751CDD12BB00406710 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E43B66831CDD152900406710 /* HomeViewController.h */,
+				E43B66841CDD152900406710 /* HomeViewController.m */,
+				E4E738A31CE3DD2E000B7567 /* OMEpisodeViewController.h */,
+				E4E738A41CE3DD2E000B7567 /* OMEpisodeViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E43B66761CDD12CE00406710 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4E738B01CE3ECD2000B7567 /* OMSetDataProtocol.h */,
+				E43B66781CDD142200406710 /* OMConnectionManager.h */,
+				E43B66791CDD142200406710 /* OMConnectionManager.m */,
+				E4E7389A1CE282C2000B7567 /* OMSet.h */,
+				E4E7389B1CE282C2000B7567 /* OMSet.m */,
+				E4E738AD1CE3E514000B7567 /* OMEpisode.h */,
+				E4E738AE1CE3E514000B7567 /* OMEpisode.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E43B66771CDD12D600406710 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4E738951CE27ACC000B7567 /* OMSetViewCell.h */,
+				E4E738961CE27ACC000B7567 /* OMSetViewCell.m */,
+				E4E738971CE27ACC000B7567 /* OMSetViewCell.xib */,
+				E4E738A81CE3DE77000B7567 /* OMEpisodeCell.h */,
+				E4E738A91CE3DE77000B7567 /* OMEpisodeCell.m */,
+				E4E738AA1CE3DE77000B7567 /* OMEpisodeCell.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +277,7 @@
 				TargetAttributes = {
 					E43B663D1CDD124100406710 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 6CN522LZF3;
+						DevelopmentTeam = 85E95GUN27;
 					};
 					E43B66561CDD124100406710 = {
 						CreatedOnToolsVersion = 7.3;
@@ -247,8 +317,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E43B66511CDD124100406710 /* LaunchScreen.storyboard in Resources */,
+				E4E738AC1CE3DE77000B7567 /* OMEpisodeCell.xib in Resources */,
+				E4E738991CE27ACC000B7567 /* OMSetViewCell.xib in Resources */,
 				E43B664E1CDD124100406710 /* Assets.xcassets in Resources */,
-				E43B664C1CDD124100406710 /* Main.storyboard in Resources */,
+				E4E7389F1CE28ED8000B7567 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +345,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E43B66491CDD124100406710 /* ViewController.m in Sources */,
-				E43B66461CDD124100406710 /* AppDelegate.m in Sources */,
-				E43B66431CDD124100406710 /* main.m in Sources */,
+				E4E738A61CE3DD2E000B7567 /* OMEpisodeViewController.m in Sources */,
+				E43B66851CDD152900406710 /* HomeViewController.m in Sources */,
+				E4E738981CE27ACC000B7567 /* OMSetViewCell.m in Sources */,
+				E4E738AB1CE3DE77000B7567 /* OMEpisodeCell.m in Sources */,
+				E43B667A1CDD142200406710 /* OMConnectionManager.m in Sources */,
+				E43B667F1CDD143E00406710 /* main.m in Sources */,
+				E4E738AF1CE3E514000B7567 /* OMEpisode.m in Sources */,
+				E43B667E1CDD143E00406710 /* AppDelegate.m in Sources */,
+				E4E7389C1CE282C2000B7567 /* OMSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,20 +389,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E43B664A1CDD124100406710 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E43B664B1CDD124100406710 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E43B664F1CDD124100406710 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E43B66501CDD124100406710 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E4E7389D1CE28ED8000B7567 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4E7389E1CE28ED8000B7567 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -416,6 +494,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OstModernApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Guowei.OstModernApp;
@@ -427,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OstModernApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Guowei.OstModernApp;
@@ -499,6 +579,7 @@
 				E43B666D1CDD124100406710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E43B666E1CDD124100406710 /* Build configuration list for PBXNativeTarget "OstModernAppTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +588,7 @@
 				E43B66701CDD124100406710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E43B66711CDD124100406710 /* Build configuration list for PBXNativeTarget "OstModernAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +597,7 @@
 				E43B66731CDD124100406710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
